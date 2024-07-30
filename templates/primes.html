@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prime Numbers</title>
+</head>
+<body>
+	<h1>Prime Numbers</h1>
+	<p>Prime numbers between 2 and {{ num }}:</p>
+	<ul>
+		{% for prime in result %}
+		<li>{{ prime }}</li>
+		{% endfor %}
+	</ul>
+</body>
+</html>

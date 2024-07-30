@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Prime Numbers</title>
+</head>
+<body>
+    <h1>Find Prime Numbers</h1>
+    <form action="{{ url_for('primes') }}" method="post">
+        <label for="num">Enter a number:</label>
+        <input type="text" name="num" id="num">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <a href="{{ url_for('back_home') }}">Home</a>
+</body>
+</html>
