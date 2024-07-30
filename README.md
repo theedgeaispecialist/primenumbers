@@ -19,5 +19,5 @@ Then, navigate to http://localhost:5000 in your web browser to access the applic
 
 ## Contributors
 
- Ashish
+
 
