@@ -33,8 +33,9 @@ jobs:
           run: |
             python -m pip install --upgrade pip
             pip install -r requirements.txt 
-        - name: python app.py
-          run: |
-            echo "Running app.py"
-            python app.py
-            echo "Finished running app.py"
+            echo "Finished requirements"
+#        - name: python app.py
+ #         run: |
+ #           echo "Running app.py"
+ #           python app.py
+ #           echo "Finished running app.py"
